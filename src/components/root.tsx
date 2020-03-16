@@ -3,11 +3,11 @@ import React from "react";
 
 const Root = () =>
 {
-    const hotLoad : string = "Hot Load";
+    const hotLoad : string = "HotLoad";
 
 
     return(
-        <div>My REACT App with {hotLoad}</div>
+        <div>My REACT App with some {hotLoad}</div>
 
     );
 };
