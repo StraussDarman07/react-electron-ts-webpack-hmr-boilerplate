@@ -7,7 +7,7 @@ const Root = () =>
 
 
     return(
-        <div>My REACT App with some {hotLoad}</div>
+        <div>My REACT App with some {hotLoad}!</div>
 
     );
 };

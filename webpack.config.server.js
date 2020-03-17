@@ -34,7 +34,10 @@ const config = {
     },
 
     resolve: {
-        extensions: [".ts", ".tsx", ".js"]
+        extensions: [".ts", ".tsx", ".js"],
+        alias: {
+            'react-dom': '@hot-loader/react-dom'
+        }
     },
     plugins: [htmlPlugin],
 
